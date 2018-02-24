@@ -8,3 +8,9 @@ if (uNum%2) == 0:
 else:
     print(str
           (uNum)+" is an Odd number!")
+
+uTry = int(input("Enter a number to try: "))
+if(uNum%uTry == 0):
+    print(str(uNum)+" is divisible by "+str(uTry))
+else:
+    print(str(uNum)+" is not divisible by "+str(uTry))
